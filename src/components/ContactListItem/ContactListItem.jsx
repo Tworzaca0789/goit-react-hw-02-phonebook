@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 const ContactListItem = ({ name, number}) => (
         <p className={styles.contactPerson}>
-            {name}: {number}
+            ~ {name}: {number}
         </p>
     );
 
